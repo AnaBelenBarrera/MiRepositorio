@@ -1,0 +1,58 @@
+.gridconteiner{
+    display: grid;   
+    grid-template-areas:
+    "header header header header header"
+    "nav nav nav nav nav"
+    "productos1 productos1 productos1 productos1 productos1 "
+    "productos2 productos2 productos2 productos2 productos2 "
+    "footer footer footer footer footer"
+    ;
+    grid-template-rows:250px 50px 500px 500px 100px; ;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 5px;
+}
+logo{
+    grid-area: logo;
+}
+header#padre{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+main#padre{
+    grid-area: productos1;
+}
+main#padre2{
+    grid-area: productos2;
+}
+footer{
+    grid-area: footer;
+}
+
+
+.gridproductos{
+    display: grid;
+    grid-template-areas: 
+    "posa posa posa mini mini mini"
+    "posa posa posa mini mini mini"
+    "alfombra alfombra alfombra alfombra alfombra alfombra";
+    grid-template-rows:  300px 300px 1150px;
+    grid-template-columns: 350px 350px ;
+}
+
+
+#posavasos-grid{
+    grid-area: posa;
+    display: flex;
+    flex-direction: row;
+}
+
+#minialfombras-grid{
+    grid-area: mini;
+}
+
+#alfombras{
+    grid-area: alfombra;
+}

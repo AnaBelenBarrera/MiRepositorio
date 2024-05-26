@@ -10,11 +10,8 @@ footer{
     background-color: #fa708c;
 }
 img#logo{
-    height: 150px;
-    width: 150px;
-    padding: 2px;
-    border-radius: 50px;
-    margin: 2px 1px 100px 1px;
+    height: 200px;
+    width: 200px;
     position: absolute;
 }
 img#encabezado{
@@ -27,7 +24,7 @@ h1{
     display: none;
 }
 nav {
-    background-color: #fa708c;
+    background-color: #FCDDDF;
 }
 nav div a.pages{
     font: 2em Comic;
@@ -52,26 +49,25 @@ h3{
     margin-bottom: 20px
 }
 .img{
-    width: 350px;
+    width: 250px;
     margin: 15px;
     display: flex;
     flex-direction: row;
-    margin-left: 30px;
-    margin-right: 30px;
-    
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
 }
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-}
+} 
 
 section div{
     display: flex;
     width: 40%;
 flex-direction: row;
-}
+} 
 
 div h3.nombres{
     margin-left: 220px;
@@ -110,6 +106,10 @@ ul{
     display: flex;
     flex-direction: row;
 }
+div.column{
+    display: flex;
+    flex-direction: column;
+}
 #servicios{
     width: 3050px;
 }
@@ -117,3 +117,41 @@ ul{
 #galeria{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
+
+main#padre{
+    background-color: #f48BCB;
+    border-radius: 10%;;
+}
+main#padre2{
+    background-color: #f48BCB;
+    border-radius: 10%;
+}
+.imgg{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;}
+
+div h3.nombres1{
+    margin-left: 110px;
+    margin-right: 20px;
+}
+h2.tit{
+    margin: 5px 20px 5px 100px;
+}
+.titulos{
+    margin-left: 110px;
+    margin-right: 50px;
+}
+div h3.nombres0{
+    margin-left: 160px;
+    margin-right: 40px;
+}
+div.color{
+    background-color: #f48BCB;
+    border-radius: 15%;
+}
