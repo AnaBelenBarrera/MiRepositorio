@@ -7,6 +7,7 @@
     <title>Red Carpet</title>
     <link rel="stylesheet" href="/MiRepositorio/styles/style.css">
     <link rel="stylesheet" href="/MiRepositorio/styles/stylegrilla.css">
+    <link rel="stylesheet" href="/MiRepositorio/assets/bootstrap-5.3.3-dist/css/bootstrap.css">
 </head>
 <body class="gridconteiner">
     <header id="padre">
@@ -21,31 +22,21 @@
         </div>
     <nav>
         <div>
-            <a href="./index.html" class="pages">INICIO</a>
-            <a href="./pages/productos.html" class="pages">PRODUCTOS</a>
-            <a href="./pages/servicios.html" class="pages">SERVICIOS</a>
-            <a href="./pages/galeria.html" class="pages">GALERIA</a>
-            <a href="./pages/cuidados.html" class="pages">CUIDADOS</a>
+            <a href="/MiRepositorio/index.html" class="btn btn-outline-danger" id="nav">INICIO</a>
+            <a href="./pages/productos.html" class="btn btn-outline-danger" >PRODUCTOS</a>
+            <a href="./pages/servicios.html" class="btn btn-outline-danger">SERVICIOS</a>
+            <a href="./pages/galeria.html" class="btn btn-outline-danger" >GALERIA</a>
+            <a href="./pages/cuidados.html"  class="btn btn-outline-danger">CUIDADOS</a>
         </div>
     </nav>
-<main id="padre">
+<main id="padre" class="conteiner">
     <h2 class="titulos">OFERTAS</h2>
 
-    <section >
-        
+    <section class="row">
         <div>
-            <img src="./assets/productos/productoaraña.jpg" alt="hombre araña" class="img">
-            
-            <img src="./assets/productos/productobarbie.jpg" alt="barbie" class="img">
-            
-            <img src="./assets/productos/productocerdito.jpg" alt="cerdito" class="img">
-        </div>
-        <div>
-            <h3 class="nombres">Alfombra Hombre Araña 80x40cm</h3>
-
-            <h3 class="nombres">Alfombra Barbie 90x45cm</h3>
-
-            <h3 class="nombres">Alfombra Cerdito 60x40cm</h3>
+            <img src="./assets/productos/productoaraña.png" alt="hombre araña" class="img" class="column">
+            <img src="./assets/productos/productobarbie.png" alt="barbie" class="img" class="column">
+            <img src="./assets/productos/productocerdito.png" alt="cerdito" class="img" class="column">
         </div>
     </section>
 </main>
@@ -53,19 +44,9 @@
     <h2 class="titulos">MAS VENDIDOS</h2>
     <section>
         <div>
-            <img src="./assets/productos/productoescudo.jpg" alt="escudo" class="img">
-            
-            <img src="./assets/productos/productogoku.jpg" alt="goku"class="img">
-            
-            <img src="./assets/productos/productoflor.jpg" alt="flor"class="img">
-            
-        </div>
-        <div>
-            <h3 class="nombres">Alfombra Capitan America 60cm</h3>
-
-            <h3 class="nombres">Alfombra Goku 60cm</h3>
-
-            <h3 class="nombres">Mini alfombra escritorio 30x15cm</h3>
+            <img src="./assets/productos/productoescudo.png" alt="escudo" class="img">
+            <img src="./assets/productos/productogoku.png" alt="goku"class="img">
+            <img src="./assets/productos/productoflor.png" alt="flor"class="img">
         </div>
     </section>
 </main>
@@ -75,6 +56,6 @@
             <h4>TERMINOS Y CONDICIONES</h4>
         </div>
     </footer>
-    
+    <script src="/MiRepositorio/assets/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>
 </html>
