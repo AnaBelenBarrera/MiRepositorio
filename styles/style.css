@@ -155,3 +155,133 @@ div.color{
     background-color: #f48BCB;
     border-radius: 15%;
 }
+
+img.footer-img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    align-items: center;
+}
+footer.row{
+    display: flex;
+    flex-direction: row;
+}
+div.column{
+    display: flex;
+    flex-direction: column;
+}
+a.footer-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    margin: 20px 300px 0px 250px;
+}
+
+.gridconteiner{
+    display: grid;   
+    grid-template-areas:
+    "header header header header header"
+    "nav nav nav nav nav"
+    "productos1 productos1 productos1 productos1 productos1 "
+    "productos2 productos2 productos2 productos2 productos2 "
+    "footer footer footer footer footer"
+    ;
+    grid-template-rows:280px 50px 500px 500px 100px; ;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 5px;
+}
+logo{
+    grid-area: logo;
+}
+header#padre{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+main#padre{
+    grid-area: productos1;
+}
+main#padre2{
+    grid-area: productos2;
+}
+footer{
+    grid-area: footer;
+}
+
+
+.gridproductos{
+    display: grid;
+    grid-template-areas: 
+    "posa posa mini mini"
+    "posa posa mini mini"
+    "alfombra alfombra alfombra alfombra";
+    grid-template-rows:  350px 450px 950px;
+    grid-template-columns: 350px 350px ;
+}
+
+
+#posavasos-grid{
+    grid-area: posa;
+    display: flex;
+;
+}
+
+#minialfombras-grid{
+    grid-area: mini;
+}
+
+#alfombras{
+    grid-area: alfombra;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .gridconteiner {
+        display: grid;   
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "productos1 productos1 "
+        "productos2 productos2 "
+        "footer footer"
+        ;
+        grid-template-rows:980px 50px 1900px 1900px 100px;; ;
+        grid-template-columns: auto auto;
+        row-gap: 40px;
+}
+img#logo{
+    margin: 400px 100px 100px 400px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+img#encabezado{
+    height: 1020px;
+    width: 1100px; }
+
+#nav{
+    margin: 0px 0px 0px 30px;
+}
+
+.img{
+    width: 550px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+section div{
+    display: flex;
+    width: 20%;
+flex-direction: column;
+align-items: center;
+}  
+}
