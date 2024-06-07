@@ -7,7 +7,7 @@
     "productos2 productos2 productos2 productos2 productos2 "
     "footer footer footer footer footer"
     ;
-    grid-template-rows:250px 50px 500px 500px 100px; ;
+    grid-template-rows:280px 50px 500px 500px 100px; ;
     grid-template-columns: auto auto auto auto auto;
     row-gap: 5px;
 }
@@ -35,10 +35,10 @@ footer{
 .gridproductos{
     display: grid;
     grid-template-areas: 
-    "posa posa posa mini mini mini"
-    "posa posa posa mini mini mini"
-    "alfombra alfombra alfombra alfombra alfombra alfombra";
-    grid-template-rows:  300px 300px 1150px;
+    "posa posa mini mini"
+    "posa posa mini mini"
+    "alfombra alfombra alfombra alfombra";
+    grid-template-rows:  350px 450px 950px;
     grid-template-columns: 350px 350px ;
 }
 
@@ -46,7 +46,7 @@ footer{
 #posavasos-grid{
     grid-area: posa;
     display: flex;
-    flex-direction: row;
+;
 }
 
 #minialfombras-grid{
