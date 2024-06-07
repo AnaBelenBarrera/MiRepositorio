@@ -155,3 +155,22 @@ div.color{
     background-color: #f48BCB;
     border-radius: 15%;
 }
+img.footer-img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    align-items: center;
+}
+footer.row{
+    display: flex;
+    flex-direction: row;
+}
+div.column{
+    display: flex;
+    flex-direction: column;
+}
+a.footer-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    margin: 20px 200px 0px 500px;
+}
