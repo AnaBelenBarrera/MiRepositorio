@@ -56,23 +56,22 @@
     </section>
     <h3>¿TE GUSTO ALGUN DISEÑO? CONTACTANOS Y VA A SER TUYO!!</h3>
     <form>
-        <input id="userName" name="fieldUserName" type="text" placeholder="Nombre Completo" required>
-        <label for="userName">
-            Ingresa tu nombre
-        </label>
-
-        <input id="userEmail" name="fieldUserEmail" type="email" placeholder="Example@email.com">
-        <label for="userEmail">
-            Ingresa tu Gmail
-        </label>
-
-        <input id="userCelular" name="fieldUserCelular" type="tel" placeholder="35100000">
-        <label for="userCelular">
-            Ingrese su numero celular
-        </label>
-
+        <div class="form-floating">
+            <input type="text" class="form-control" id="floatingNombre" placeholder="Nombre">
+            <label for="floatingNombre">Nombre completo</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Correo Electronico</label>
+        </div>
+        
+        <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="floatingTel" placeholder="351-XXX-XXXX">
+            <label for="floatingTel">Numero Celular</label>
+        </div>
+        
         <div>
-            <input type="submit" value="Enviar"> 
+            <input type="submit" class="btn btn-outline-danger" value="Enviar"> 
         </div>
     </form>
 </main>

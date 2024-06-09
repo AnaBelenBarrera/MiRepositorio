@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$rosa:#FCDDDF;
+$violeta:#ebb7d9;
+
+body{
+    background-color: #fbc8db;
+}
+
+footer{
+    background-color:$rosa;
+}
+img#logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+img#encabezado{
+    height: 300px;
+    width: 1350px;;
+}
+
+h1{
+    display: none;
+}
+nav {
+    background-color: #FCDDDF;
+}
+nav div a.pages{
+    font: 2em Comic;
+    color: black;
+    border-color: 1px #e9002f;
+    border-radius: 10px;
+    margin: 0px 40px 0px 45px;
+    text-decoration: none}
+
+h2{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.img{
+    width: 350px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+section div{
+    display: flex;
+    width: 40%;
+flex-direction: row;
+} 
+
+div h3.nombres{
+    margin-left: 220px;
+    margin-right: 20px;
+}
+section img.img2{
+    width: 50%;
+    margin-right: 15px;
+    border-radius: 15px;
+
+}
+section div.servi{
+    display: flex;
+    flex-direction: row;
+
+}
+#lista{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+#lista4{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#galeria{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+div.column{
+    display: flex;
+    flex-direction: column;
+}
+#servicios{
+    width: 3050px;
+}
+
+#galeria{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+main#padre{
+    background-color: $violeta;
+    border-radius: 10%;;
+}
+main#padre2{
+    background-color: $violeta;
+    border-radius: 10%;
+}
+.imgg{
+    width: 300px;
+    /* height: 200px; */
+    margin: 15px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    border-radius: 15px;}
+
+div h3.nombres1{
+    margin-left: 110px;
+    margin-right: 20px;
+}
+h2.tit{
+    margin: 5px 20px 5px 100px;
+}
+.titulos{
+    margin-left: 110px;
+    margin-right: 50px;
+}
+div h3.nombres0{
+    margin-left: 160px;
+    margin-right: 40px;
+}
+div.color{
+    background-color: #f48BCB;
+    border-radius: 15%;
+}
+
+img.footer-img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    align-items: center;
+}
+footer.row{
+    display: flex;
+    flex-direction: row;
+}
+div.column{
+    display: flex;
+    flex-direction: column;
+}
+a.footer-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    margin: 20px 300px 0px 250px;
+}
+
+.gridconteiner{
+    display: grid;   
+    grid-template-areas:
+    "header header header header header"
+    "nav nav nav nav nav"
+    "productos1 productos1 productos1 productos1 productos1 "
+    "productos2 productos2 productos2 productos2 productos2 "
+    "footer footer footer footer footer"
+    ;
+    grid-template-rows:280px 50px 500px 500px 320px; ;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 5px;
+}
+logo{
+    grid-area: logo;
+}
+header#padre{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+main#padre{
+    grid-area: productos1;
+}
+main#padre2{
+    grid-area: productos2;
+}
+footer{
+    grid-area: footer;
+}
+
+
+.gridproductos{
+    display: grid;
+    grid-template-areas: 
+    "posa posa mini mini"
+    "posa posa mini mini"
+    "alfombra alfombra alfombra alfombra";
+    grid-template-rows:  350px 450px 950px;
+    grid-template-columns: 350px 350px ;
+}
+
+
+#posavasos-grid{
+    grid-area: posa;
+    display: flex;
+;
+}
+
+#minialfombras-grid{
+    grid-area: mini;
+}
+
+#alfombras{
+    grid-area: alfombra;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .gridconteiner {
+        display: grid;   
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "productos1 productos1 "
+        "productos2 productos2 "
+        "footer footer"
+        ;
+        grid-template-rows:980px 50px 1900px 1900px 200px;; ;
+        grid-template-columns: auto auto;
+        row-gap: 40px;
+}
+img#logo{
+    margin: 400px 100px 100px 400px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+img#encabezado{
+    height: 1020px;
+    width: 1100px; }
+
+#nav{
+    margin: 0px 0px 0px 30px;
+}
+
+.img{
+    width: 550px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+section div{
+    display: flex;
+    width: 20%;
+flex-direction: column;
+align-items: center;
+}  
+}
+
+
