@@ -72,7 +72,6 @@ main {
 
 section div {
   display: flex;
-  width: 40%;
   flex-direction: row;
 }
 
@@ -124,8 +123,8 @@ div.column {
   flex-direction: column;
 }
 
-#servicios {
-  width: 3050px;
+main#servicios {
+  width: 1200px;
 }
 
 #galeria {
@@ -289,6 +288,36 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+}
+.img-galeria {
+  width: 420px !important;
+  display: flex;
+  margin: 6px;
+  border-radius: 5%;
+}
+
+form {
+  width: 500px;
+  margin: 0px 0px 0px 400px;
+}
+
+.violeta {
+  background-color: #ebb7d9;
+}
+
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align-last: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+iframe {
+  margin: 0px 0px 0px 465px;
+}
+
+#cuidados {
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
