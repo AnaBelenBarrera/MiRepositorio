@@ -1,0 +1,76 @@
+@media (max-width: 480px) {
+    .gridconteiner {
+        display: grid !important;   
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "productos1 productos1 "
+        "productos2 productos2 "
+        "footer footer" !important
+        ;
+        grid-template-rows: 1000px 188px 1400px 1400px 200px !important;
+        grid-template-columns: auto auto !important;
+        row-gap: 1px !important;
+}
+img#logo{
+    margin: 330px 80px 80px 120px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+img#encabezado{
+    height: 1000px !important;
+    width: 480px !important;
+}
+
+nav{
+    display: flex;
+    flex-direction: column ;
+    width: 480px;
+}
+
+nav div a {
+    display: flex !important;
+    width: 480px;
+    // flex-direction: column !important;
+}
+.img{
+    width: 550px;
+    margin: 10px;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+main#padre{
+    width: 480px;
+    height: 1400px;
+}
+
+section.row{
+    display: flex;
+    flex-direction: row !important;
+}
+main#padre2{
+    width: 480px;
+    height: 1400px;
+}
+
+section div{
+    display: flex !important;;
+flex-direction: column !important;
+align-items: center !important;
+}  
+
+footer{
+    height: 200px; ;
+    width: 480px;
+}
+a.footer-text{
+    margin: 0px 0px 0px 0px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+}
+}
