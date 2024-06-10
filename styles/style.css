@@ -35,7 +35,7 @@
     border-radius: 15px;
   }
   main#padre {
-    width: 470px;
+    width: 390px;
     height: 1400px;
   }
   section.row {
@@ -168,6 +168,7 @@
   }
   iframe {
     margin: 0px 0px 0px 15px !important;
+    width: 350px;
   }
   #section-cuidados {
     width: 390px;

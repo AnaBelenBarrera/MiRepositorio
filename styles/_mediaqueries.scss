@@ -45,7 +45,7 @@ nav div a {
     border-radius: 15px;
 }
 main#padre{
-    width: 470px;
+    width: 390px;
     height: 1400px;
 }
 
@@ -178,41 +178,19 @@ a.footer-text{
             width: 390px !important;
             border: 10px;
         }
+        
         main#servicios{
             width: 390px!important;
         }
+
         ul#lista{
             margin: 10px;
         }
 
-        // .grid_galeria{
-        //     display: grid !important;
-        //     grid-template-areas: 
-        //     "header header"
-        //     "nav nav"
-        //     "gal gal"
-        //     "form form"
-        //     "footer footer"!important
-        //     ;
-        //     grid-template-rows:1000px 188px 2500px 300px 200px !important;
-        //     grid-template-columns: 235px 235px !important;
-        //     row-gap: 1px !important;
-        // }
-
-        // #form{
-        //     display: grid;
-        //     grid-area: form;
-        //     width: 470px;
-        // }
-
-        // #galeria1{
-        //     display: grid;
-        //     grid-area: gal;
-        //     width: 470px;
-        // }
         #galeria{
             width: 390px;
         }
+
         #form{
             width: 390px;
             
@@ -230,6 +208,7 @@ a.footer-text{
         }
         iframe{
             margin: 0px 0px 0px 15px !important;
+            width: 350px;
         }
         #section-cuidados{
             width: 390px;
