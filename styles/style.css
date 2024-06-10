@@ -16,7 +16,7 @@
     height: 1000px !important;
     width: 480px !important;
   }
-  nav {
+  #nav1 {
     display: flex;
     flex-direction: column;
     width: 480px;
@@ -54,6 +54,56 @@
   footer {
     height: 200px;
     width: 480px;
+  }
+  a.footer-text {
+    margin: 0px 0px 0px 0px !important;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align-last: center;
+  }
+}
+@media (max-width: 480px) {
+  img#logo {
+    margin: 330px 80px 80px 120px !important;
+    height: 200px !important;
+    width: 200px !important;
+    position: absolute !important;
+  }
+  img#encabezado {
+    height: 1000px !important;
+    width: 480px !important;
+  }
+  #nav2 {
+    display: grid !important;
+    grid-area: nav2 !important;
+    width: 480px !important;
+  }
+  #nav2 div a {
+    flex-direction: column !important;
+    display: flex !important;
+    width: 480px !important;
+  }
+  .gridproductos {
+    display: grid !important;
+    grid-template-areas: "productos1 productos1 " "productos2 productos2 " "productos3 productos3" "footer footer" !important;
+    grid-template-rows: 1050px 800px 2500px 200px !important;
+    grid-template-columns: auto auto !important;
+    row-gap: 1px !important;
+  }
+  #posavasos-grid {
+    display: grid !important;
+    grid-area: productos1 !important;
+  }
+  #minialfombras-grid {
+    display: grid !important;
+    grid-area: productos2 !important;
+  }
+  #alfombras {
+    display: grid !important;
+    grid-area: productos3 !important;
+  }
+  footer {
+    height: 200px !important;
+    width: 480px !important;
   }
   a.footer-text {
     margin: 0px 0px 0px 0px !important;
