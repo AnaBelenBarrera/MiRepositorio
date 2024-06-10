@@ -136,6 +136,49 @@ a.footer-text{
             text-align-last: center;
         }
     
+        .grid-servicios{
+            display: grid !important;
+            grid-template-areas: 
+            "servi1 servi1"
+            "servi2 servi2 "
+            "servi3 servi3"
+            "servi4 servi4"!important
+            ;
+            grid-template-rows:700px 800px 830px 400px !important;
+            grid-template-columns: auto auto !important;
+            row-gap: 1px !important;
+            
+        }
+        #servi-alfombras{
+            display: grid;
+            grid-area: servi1;
+            width: 480px !important;
+            background-color: $violeta;
+            border-radius: 5%;
+        }
+
+        #servi-mini{
+            display: grid;
+            grid-area: servi2;
+            width: 480px !important;
+        }
+
+        #servi-posavasos{
+            display: grid;
+            grid-area: servi3;
+            width: 480px !important;
+            background-color: $violeta;
+            border-radius: 5%;
+        }
+
+        #servi-texto{
+            display: grid;
+            grid-area: servi4;
+            width: 480px !important;
+        }
+        main#servicios{
+            width: 480px !important;
+        }
     }
 
 
