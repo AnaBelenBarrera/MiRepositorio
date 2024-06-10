@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 470px) {
   .gridconteiner {
     display: grid !important;
     grid-template-areas: "header header" "nav nav" "productos1 productos1 " "productos2 productos2 " "footer footer" !important;
@@ -14,16 +14,16 @@
   }
   img#encabezado {
     height: 1000px !important;
-    width: 480px !important;
+    width: 470px !important;
   }
   #nav1 {
     display: flex;
     flex-direction: column;
-    width: 480px;
+    width: 470px;
   }
   nav div a {
     display: flex !important;
-    width: 480px;
+    width: 470px;
   }
   .img {
     width: 550px;
@@ -35,7 +35,7 @@
     border-radius: 15px;
   }
   main#padre {
-    width: 480px;
+    width: 470px;
     height: 1400px;
   }
   section.row {
@@ -43,7 +43,7 @@
     flex-direction: row !important;
   }
   main#padre2 {
-    width: 480px;
+    width: 470px;
     height: 1400px;
   }
   section div {
@@ -53,7 +53,7 @@
   }
   footer {
     height: 200px;
-    width: 480px;
+    width: 470px;
   }
   a.footer-text {
     margin: 0px 0px 0px 0px !important;
@@ -61,7 +61,7 @@
     text-align-last: center;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 470px) {
   img#logo {
     margin: 330px 80px 80px 120px !important;
     height: 200px !important;
@@ -70,17 +70,18 @@
   }
   img#encabezado {
     height: 1000px !important;
-    width: 480px !important;
+    width: 470px !important;
   }
   #nav2 {
     display: grid !important;
     grid-area: nav2 !important;
-    width: 480px !important;
+    width: 470px !important;
   }
   #nav2 div a {
     flex-direction: column !important;
+    align-items: flex-start;
     display: flex !important;
-    width: 480px !important;
+    width: 470px !important;
   }
   .gridproductos {
     display: grid !important;
@@ -113,36 +114,57 @@
   .grid-servicios {
     display: grid !important;
     grid-template-areas: "servi1 servi1" "servi2 servi2 " "servi3 servi3" "servi4 servi4" !important;
-    grid-template-rows: 700px 800px 830px 400px !important;
+    grid-template-rows: 700px 800px 900px 400px !important;
     grid-template-columns: auto auto !important;
     row-gap: 1px !important;
   }
   #servi-alfombras {
     display: grid;
     grid-area: servi1;
-    width: 480px !important;
+    width: 470px !important;
     background-color: #ebb7d9;
     border-radius: 5%;
   }
   #servi-mini {
     display: grid;
     grid-area: servi2;
-    width: 480px !important;
+    width: 470px !important;
   }
   #servi-posavasos {
     display: grid;
     grid-area: servi3;
-    width: 480px !important;
+    width: 470px !important;
     background-color: #ebb7d9;
     border-radius: 5%;
   }
   #servi-texto {
     display: grid;
     grid-area: servi4;
-    width: 480px !important;
+    width: 470px !important;
+    border: 10px;
   }
   main#servicios {
-    width: 480px !important;
+    width: 470px !important;
+  }
+  ul#lista {
+    margin: 10px;
+  }
+  #galeria {
+    width: 470px;
+  }
+  #form {
+    width: 470px;
+  }
+  form {
+    width: 470px !important;
+    margin: 0px 0px 0px 0px !important;
+  }
+  #h3-galeria {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align-last: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem !important;
   }
 }
 * {
