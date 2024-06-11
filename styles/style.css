@@ -307,6 +307,7 @@ div.column {
 
 main#servicios {
   width: 1200px;
+  background: linear-gradient(to bottom, rgb(180, 127, 136) 10%, rgb(236, 180, 180));
 }
 
 #galeria {
@@ -316,22 +317,21 @@ main#servicios {
 main#padre {
   background-color: #ebb7d9;
   border-radius: 10%;
+  background: linear-gradient(to bottom, rgb(180, 127, 136) 10%, rgb(236, 180, 180));
 }
 
 main#padre2 {
   background-color: #ebb7d9;
   border-radius: 10%;
+  background: linear-gradient(to bottom, rgb(180, 127, 136) 10%, rgb(236, 180, 180));
 }
 
 .imgg {
   width: 300px;
-  /* height: 200px; */
   margin: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* margin-left: 50px;
-  margin-right: 50px; */
   border-radius: 15px;
 }
 
@@ -463,6 +463,10 @@ iframe {
 
 #cuidados {
   border-radius: 20px;
+}
+
+#section-cuidados {
+  background: linear-gradient(to bottom, rgb(180, 127, 136) 10%, rgb(236, 180, 180));
 }
 
 /*# sourceMappingURL=style.css.map */
