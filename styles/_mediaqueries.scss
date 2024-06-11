@@ -12,6 +12,7 @@
         grid-template-columns: auto auto !important;
         row-gap: 1px !important;
 }
+
 img#logo{
     margin: 330px 80px 80px 120px;
     height: 200px;
@@ -33,8 +34,8 @@ img#encabezado{
 nav div a {
     display: flex !important;
     width: 390px;
-    // flex-direction: column !important;
 }
+
 .img{
     width: 550px;
     margin: 10px;
@@ -44,6 +45,7 @@ nav div a {
     margin-right: 10px;
     border-radius: 15px;
 }
+
 main#padre{
     width: 390px;
     height: 1400px;
@@ -53,6 +55,7 @@ section.row{
     display: flex;
     flex-direction: row !important;
 }
+
 main#padre2{
     width:390px;
     height: 1400px;
@@ -68,6 +71,7 @@ footer{
     height: 200px; 
     width: 390px;
 }
+
 a.footer-text{
     margin: 0px 0px 0px 0px !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -99,8 +103,8 @@ a.footer-text{
             width: 390px!important;
         }
         }
-    
-    .gridproductos {
+
+        .gridproductos {
         display: grid !important;   
         grid-template-areas:
         "productos1 productos1 "
@@ -110,7 +114,8 @@ a.footer-text{
         ;
         grid-template-rows:1050px 800px 2500px 200px !important;
         grid-template-columns: auto auto !important;
-        row-gap: 1px !important;}
+        row-gap: 1px !important;
+    }
     
         #posavasos-grid{
             display: grid !important;

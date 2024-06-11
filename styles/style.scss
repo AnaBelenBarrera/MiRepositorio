@@ -54,6 +54,7 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px
 }
+
 .img{
     width: 350px;
     margin: 15px;
@@ -63,6 +64,7 @@ h3{
     margin-right: 50px;
     border-radius: 15px;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -78,85 +80,100 @@ div h3.nombres{
     margin-left: 220px;
     margin-right: 20px;
 }
+
 section img.img2{
     width: 50%;
     margin-right: 15px;
     border-radius: 15px;
 
 }
+
 section div.servi{
     display: flex;
     flex-direction: row;
-
 }
+
 #lista{
     display: flex;
     justify-content: center;
     align-items: start;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 ul{
     display: flex;
     flex-direction: column;
 }
+
 #lista4{
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 #galeria{
     display: flex;
     flex-direction: column;
 }
+
 .row{
     display: flex;
     flex-direction: row;
 }
+
 div.column{
     display: flex;
     flex-direction: column;
 }
+
 main#servicios{
     width: 1200px;
     background: linear-gradient(to bottom, rgb(180, 127, 136)10%, rgb(236, 180, 180))
 }
 
 #galeria{
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 main#padre{
     background-color: $violeta;
     border-radius: 10%;
     background: linear-gradient(to bottom, rgb(180, 127, 136)10%, rgb(236, 180, 180))
 }
+
 main#padre2{
     background-color: $violeta;
     border-radius: 10%;
     background: linear-gradient(to bottom, rgb(180, 127, 136)10%, rgb(236, 180, 180))
 }
+
 .imgg{
     width: 300px;
     margin: 15px;
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
 div h3.nombres1{
     margin-left: 110px;
     margin-right: 20px;
 }
+
 h2.tit{
     margin: 5px 20px 5px 100px;
 }
+
 .titulos{
     margin-left: 110px;
     margin-right: 50px;
 }
+
 div h3.nombres0{
     margin-left: 160px;
     margin-right: 40px;
 }
+
 div.color{
     background-color: #f48BCB;
     border-radius: 15%;
@@ -168,14 +185,17 @@ img.footer-img{
     margin: 10px;
     align-items: center;
     }
+
 footer.row{
     display: flex;
     flex-direction: row;
 }
+
 div.column{
     display: flex;
     flex-direction: column;
 }
+
 a.footer-text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align-last: center;
@@ -195,9 +215,11 @@ a.footer-text{
     grid-template-columns: auto auto auto auto auto;
     row-gap: 5px;
 }
+
 logo{
     grid-area: logo;
 }
+
 header#padre{
     grid-area: header;
 }
@@ -205,12 +227,15 @@ header#padre{
 nav{
     grid-area: nav;
 }
+
 main#padre{
     grid-area: productos1;
 }
+
 main#padre2{
     grid-area: productos2;
 }
+
 footer{
     grid-area: footer;
 }
@@ -230,7 +255,6 @@ footer{
 #posavasos-grid{
     grid-area: posa;
     display: flex;
-;
 }
 
 #minialfombras-grid{
@@ -248,11 +272,12 @@ footer{
     margin: 6px;
     border-radius: 5%;
 }
+
 form{
-        width: 500px;
-        margin: 0px 0px 0px 400px;
-        
+    width: 500px;
+    margin: 0px 0px 0px 400px;
 }
+
 .violeta{
     background-color: $violeta;
 }
