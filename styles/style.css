@@ -306,7 +306,7 @@ div.column {
 }
 
 main#servicios {
-  width: 1200px;
+  width: 1350px;
   background: linear-gradient(to bottom, rgb(180, 127, 136) 10%, rgb(236, 180, 180));
 }
 
@@ -369,6 +369,7 @@ img.footer-img {
 footer.row {
   display: flex;
   flex-direction: row;
+  width: 1360px;
 }
 
 div.column {
