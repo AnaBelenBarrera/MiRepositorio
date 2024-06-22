@@ -1,8 +1,9 @@
 $grid: display(grid);
 $rosa:#FCDDDF;
 $violeta:#ebb7d9;
+$vista: mobile;
 
-@import "mediaqueries";
+@import "mediaqueries.scss" ;
 
 *{
     margin: 0;
@@ -126,7 +127,7 @@ div.column{
 }
 
 main#servicios{
-    width: 1200px;
+    width: 1350px;
     background: linear-gradient(to bottom, rgb(180, 127, 136)10%, rgb(236, 180, 180))
 }
 
@@ -197,9 +198,11 @@ div.column{
 }
 
 a.footer-text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align-last: center;
     margin: 20px 300px 0px 250px;
+    text-decoration: none !important;
+    color: black !important;
 }
 
 .gridconteiner{
@@ -298,3 +301,8 @@ iframe{
 #section-cuidados{
     background: linear-gradient(to bottom, rgb(180, 127, 136)10%, rgb(236, 180, 180))
 }
+
+nav.navbar {
+    display: none;
+    }
+
