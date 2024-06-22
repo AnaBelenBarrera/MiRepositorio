@@ -2,18 +2,18 @@
   .gridconteiner {
     display: grid !important;
     grid-template-areas: "header header" "nav nav" "productos1 productos1 " "productos2 productos2 " "footer footer" !important;
-    grid-template-rows: 1000px 188px 1400px 1400px 200px !important;
+    grid-template-rows: 300px 188px 1400px 1400px 200px !important;
     grid-template-columns: auto auto !important;
     row-gap: 1px !important;
   }
   img#logo {
-    margin: 330px 80px 80px 120px;
+    margin: 30px 80px 80px 80px;
     height: 200px;
     width: 200px;
     position: absolute;
   }
   img#encabezado {
-    height: 1000px !important;
+    height: 300px !important;
     width: 390px !important;
   }
   #nav1 {
@@ -63,13 +63,13 @@
 }
 @media (max-width: 390px) {
   img#logo {
-    margin: 330px 80px 80px 120px !important;
+    margin: 30px 80px 80px 88px !important;
     height: 200px !important;
     width: 200px !important;
     position: absolute !important;
   }
   img#encabezado {
-    height: 1000px !important;
+    height: 300px !important;
     width: 390px !important;
   }
   #nav2 {
